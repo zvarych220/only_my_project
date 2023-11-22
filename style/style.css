@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:root {
+    --color-brand-dark: #323232;
+    --color-brand-light: #EDEDED;
+    --color-rectangle: #4D4D4D;
+    --color-hover: #C7AA8B;
+    --color-bc-hover: #000;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+/*Main*/
+
+.header {
+    background-color: var(--color-brand-dark);
+    margin: 0;
+}
+
+.menu {
+    flex-grow: 1;
+}
+
+.logo-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px; 
+}
+
+
+.list-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+}
+
+.list {
+    margin: 0;
+    color: var(--color-brand-light);
+}
+
+.list-link {
+    font-size: 15px;
+    font-style: normal;
+    color: var(--color-brand-light);
+    text-decoration: none;
+    padding: 20px 30px;
+    border-left: 1px solid var(--color-rectangle);
+    border-right: 1px solid var(--color-rectangle);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.list :hover {
+    color: var(--color-hover);
+    background-color: var(--color-bc-hover);
+}
+
+.icon {
+    height: 60px;
+
+}
+
+.icon-main {
+    display: flex;
+    margin-left: 346px;
+}
+
+.icon-main .icon {
+    border-left: 1px solid var(--color-rectangle);
+    border-right: 1px solid var(--color-rectangle);
+}
+
+.icon-link {
+    padding: 22px 21px;
+}
+
+.icon-main .icon :hover {
+    background-color: var(--color-bc-hover);
+}
+
+.icon-main .icon:nth-child(2) {
+    overflow: hidden;
+}
